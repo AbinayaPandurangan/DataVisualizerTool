@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "5c7d7767-ea41-4ba1-8678-75a83a22d185",
+		"name": "DataVisulaizer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33478800"
+	},
+	"item": [
+		{
+			"name": "ImportFileTest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Abinaya/Desktop/test4.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:7128/api/FileUpload/ImportFile",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"FileUpload",
+						"ImportFile"
+					],
+					"query": [
+						{
+							"key": "file",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DataRandomizerTest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7128/api/FileUpload/DataRandomizer",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7128",
+					"path": [
+						"api",
+						"FileUpload",
+						"DataRandomizer"
+					],
+					"query": [
+						{
+							"key": null,
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
