@@ -63,7 +63,7 @@
   },
   "scripts": {
     "prestart": "node aspnetcore-https && node aspnetcore-react",
-    "start": "rimraf ./build && react-scripts start",
+    "start": "set PORT=5000 && rimraf ./build && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!your-module-name)/\"",
     "eject": "react-scripts eject",
