@@ -25,7 +25,7 @@ In cmd line - run the below cmds<br/>
 cd "Snow.DataVisualizer.Web\ClientApp"<br/>
 npm install<br/>
 npm start<br/>
-Run in the Browser "https://localhost:44431"
+Run in the Browser "https://localhost:5000"
 
 ## Test Data:
 
